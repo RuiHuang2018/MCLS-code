@@ -7,17 +7,17 @@ function idx = MCLS(fea, knear)
 
 Inputs:
 
-   fea:struct data set
+   fea: struct data set
    
        data : nSample * nFeature
        
        target : nLabel *  nSample 
        
-   knear:Number of neighbors
+   knear: number of neighbors
 
 Output:
 
-   idx:Feature sorting by score
+   idx: feature sorting by score
    
 Usage:
 

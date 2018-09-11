@@ -5,6 +5,20 @@ This code from our paper "Manifold-based Constraint Laplacian Score for multi-la
 
 function idx = MCLS(fea, knear)
 
+Inputs:
+
+   fea:struct data set
+   
+       data : nSample * nFeature
+       
+       target : nLabel *  nSample 
+       
+   knear:Number of neighbors
+
+Output:
+
+   idx:Feature sorting by score
+   
 Usage:
 
 fea = load('sample.mat');
